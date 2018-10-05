@@ -1,8 +1,9 @@
-from Tkinter import *  # python 3 是tkinter
-import tkMessageBox
+from tkinter import *  # python 3 是tkinter
+from tkinter import *
+from tkinter import messagebox
 import requests
 import re
-from PIL import Image
+# from PIL import Image
 
 
 def download():
@@ -28,7 +29,7 @@ def download():
         im = Image.open('{}.gif'.format(name.decode('utf-8').encode('gbk')))
         im.show()
     except:
-        print '自己打开看吧'
+        print (自己打开看吧)
 
 
 root = Tk()
@@ -40,5 +41,4 @@ entry.grid(row=0, column=1)
 button = Button(root, text='设计签名', font=('微软雅黑', 15), width='15', height=1, command=download)
 button.grid(row=1, column=1)
 root.mainloop()
-
  
