@@ -41,6 +41,4 @@ button = Button(root, text='设计签名', font=('微软雅黑', 15), width='15'
 button.grid(row=1, column=1)
 root.mainloop()
 
----------------------
-
-本文来自 Tong_T 的CSDN 博客 ，全文地址请点击：https://blog.csdn.net/Tong_T/article/details/78324258?utm_source=copy 
+ 
